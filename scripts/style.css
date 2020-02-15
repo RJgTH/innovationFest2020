@@ -1,0 +1,54 @@
+/* logo */
+.main-content img{
+    z-index: 1;
+    position: absolute;
+    top: 1%;
+    left: -1;
+    right: 0;
+}
+/* Innovation Fest 2020 */
+.main-content h1{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: aliceblue;
+
+}
+/* Countdown */
+#countdown{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+/*Blurred Background*/
+.blurred-bg{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    /* background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/bg-img.jpg') no-repeat center center; */
+    background: url('url') no-repeat center center;
+	background-size: cover;
+	-webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(58, 57, 63, 0.6);
+    color: white;
+    text-align: center;
+}
